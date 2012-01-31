@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.web.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/web-project/3">
+            <name>SMSControllerService</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <web-module-libraries>
+                <library>
+                    <file>${file.reference.mysql-connector-java-5.1.6-bin.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library>
+                    <file>${file.reference.IgniteSms-properties}</file>
+                    <path-in-war>WEB-INF/classes</path-in-war>
+                </library>
+                <library>
+                    <file>${file.reference.SendMailFromPojo_-_ver1.2.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library>
+                    <file>${file.reference.JavaMailHelpers.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library>
+                    <file>${file.reference.SMSSendHelpers.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library>
+                    <file>${file.reference.UniversalHelpers.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+            </web-module-libraries>
+            <web-module-additional-libraries/>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+        <references xmlns="http://www.netbeans.org/ns/ant-project-references/1"/>
+    </configuration>
+</project>
